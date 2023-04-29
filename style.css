@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card{
+    font-family: 'Open Sans', sans-serif;
+    background-color:aquamarine ;
+    height: 500px;
+    padding: 50px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-image: url(doodad.png);
+}
+.content{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.card .left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 60px;
+}
+.card .left, .card .right{
+    width: 50%;
+}
+.card .right .img{
+    width: 550px;
+    height: 350px;
+    background-color: aqua;
+    border-radius: 10px;
+}
+.card .line{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 5px;
+    background-color: rgb(0, 0, 0);
+}
+.card .title, .card .desc{
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.668);
+}
